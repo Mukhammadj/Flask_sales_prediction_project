@@ -25,6 +25,7 @@ regressor = LinearRegression()
 
 regressor.fit(X, y)
 
+#pickling
 pickle.dump(regressor, open('model.pkl','wb'))
 
 model = pickle.load(open('model.pkl','rb'))

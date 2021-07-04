@@ -1,3 +1,4 @@
+# not needed for now
 import requests
 
 url = 'http://localhost:5000/results'
